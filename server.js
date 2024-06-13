@@ -11,8 +11,9 @@ const app = express();
 app.use(routes);
 app.use(express.static('public'));
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3500;
+const host = process.env.HOST || 'localhost';
 
-app.listen(port, () => {
+app.listen(port, host, () => {
   console.log('Server running on port ', Number(port));
 });
