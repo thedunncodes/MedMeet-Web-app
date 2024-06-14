@@ -22,10 +22,5 @@ jobs:
 
     - name: Run server
       run: |
-        server_pid=$$
         npm run start-server
-        sleep 60
-        kill $server_pid
-
-    - name: check running pids
-      run: ps aux | grep node
+        ps aux | grep node
