@@ -1,5 +1,8 @@
 export default class AppController {
   static index(req, res) {
-    res.redirect('pages/index');
+    const data = {
+      title: 'MedMeet - Home',
+    };
+    res.render('pages/index', { data });
   }
 }
