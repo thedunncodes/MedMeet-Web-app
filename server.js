@@ -5,11 +5,16 @@ import dotenv from 'dotenv';
 import routes from './src/routes/index.js';
 
 dotenv.config();
+const expressLayout = require('express-ejs-layouts');
 
 const app = express();
 
 app.use(routes);
 app.use(express.static('public'));
+
+app.set('view engine', 'ejs');
+app.set('layout', 'layouts/layout');
+app.use(expressLayout);
 
 const port = process.env.PORT || 3500;
 const host = process.env.HOST || 'localhost';
