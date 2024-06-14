@@ -22,5 +22,5 @@ jobs:
 
     - name: Run server
       run: |
-        npm run start-server
+        npm run start-server & 
         ps aux | grep node
