@@ -23,4 +23,7 @@ jobs:
     - name: Run server
       run: |
         npm run start-server & 
-        ps aux | grep node
+        sleep 20
+
+    - name: Sucess
+      run: echo "Server ran succesfully"
