@@ -1,5 +1,5 @@
 export default class AppController {
   static index(req, res) {
-    res.send({ status: 'success' });
+    res.redirect('pages/index');
   }
 }
