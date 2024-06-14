@@ -1,5 +1,3 @@
-# .github/workflows/server.yml
-
 name: Run Server
 
 on:
@@ -24,7 +22,10 @@ jobs:
 
     - name: Run server
       run: |
+        server_pid=$$
         npm run start-server
-        
-    - name: Keep server running
-      run: sleep 60 
+        sleep 60
+        kill $server_pid
+
+    - name: check running pids
+      run: ps aux | grep node
