@@ -2,10 +2,10 @@
 
 import express from 'express';
 import dotenv from 'dotenv';
+import expressLayout from 'express-ejs-layouts';
 import routes from './src/routes/index.js';
 
 dotenv.config();
-const expressLayout = require('express-ejs-layouts');
 
 const app = express();
 
