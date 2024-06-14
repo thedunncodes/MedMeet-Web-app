@@ -2,7 +2,7 @@
 
 import express from 'express';
 import dotenv from 'dotenv';
-import routes from './src/routes';
+import routes from './src/routes/index.js';
 
 dotenv.config();
 
