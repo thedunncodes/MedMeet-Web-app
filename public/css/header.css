@@ -3,7 +3,28 @@ header {
     grid-template-columns: 20% 60% 20%;
 }
 
+.logo-section {
+    width: 100%;
+}
+
 .logo-section a img {
     width: 5rem;
     height: 5rem;
+}
+
+.logo-section a {
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    width: 100%;
+    justify-content: left;
+}
+
+.logo-section a span {
+    color: rgb(31, 138, 204);
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 2rem;
 }
