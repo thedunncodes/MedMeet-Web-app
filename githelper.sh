@@ -7,6 +7,7 @@
 git status
 echo "Git running"
 echo ""
+sleep 10
 if [ "$1" ]; then
     if [ "$2" ]; then
         git add "$2"
