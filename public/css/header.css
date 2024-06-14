@@ -1,6 +1,6 @@
 header {
     display: grid;
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 23% 57% 20%;
 }
 
 .logo-section {
@@ -27,4 +27,59 @@ header {
     font-optical-sizing: auto;
     font-weight: 700;
     font-size: 2rem;
+}
+
+.menu-section-container {
+    display: grid;
+    grid-template-columns: 15% 15% 15%;
+    width: 100%;
+    grid-gap: 2rem;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+a.menu-section-btn {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 15px;
+    color: #333;
+    font-size: 1.25rem;
+    border-radius: 35px;
+    /* box-shadow: 0 0 10px rgba(76, 184, 246, 0.132); */
+}
+
+a.menu-section-btn:hover {
+    box-shadow: 0 0 10px rgba(51, 101, 130, 0.137);
+}
+
+.user-auth-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    /* justify-content: space-between; */
+    align-items: center;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.user-auth-btn {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 15px;
+    color: #333;
+    font-size: 1rem;
+    border-radius: 35px;
+}
+
+a.user-btn-signup {
+    background-color: rgb(70, 200, 187);
+    color: white;
+    transition: all 500ms ease;
+}
+a.user-btn-signup:hover {
+    box-shadow: 0 0 15px rgba(18, 18, 19, 0.221);
 }
