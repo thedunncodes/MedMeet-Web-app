@@ -1,18 +1,22 @@
 #!/bin/bash
 # Helper function to automate git pushes
+# $1 --> your commit message
+# $2 --> specify single file commits
+
 
 git status
+echo "Git running"
 echo ""
-if [ $1 ]; then
-    if [ $2 ]; then
-        git add $2
+if [ "$1" ]; then
+    if [ "$2" ]; then
+        git add "$2"
     else
-        # git add .
-        echo "Live test-->"
+        git add .
     fi
-    echo "$1-----$2"
-    # git commit -m "$1"
-    # git push
+    git commit -m "$1"
+    echo ""
+    git push
 else
+    echo ""
     echo "No commit message"
 fi 
