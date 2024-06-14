@@ -1,0 +1,9 @@
+header {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.logo-section a img {
+    width: 5rem;
+    height: 5rem;
+}
