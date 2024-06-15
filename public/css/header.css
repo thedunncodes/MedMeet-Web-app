@@ -1,6 +1,11 @@
 header {
     display: grid;
     grid-template-columns: 23% 57% 20%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 0 2px 2px rgba(117, 171, 178, 0.16);
 }
 
 .logo-section {
