@@ -3,3 +3,35 @@ body {
     margin: 2px;
     color: #333;
 }
+
+.home-intro-wrapper {
+    position: relative;
+}
+
+.home-intro-container {
+    background-image: url('/images/static_images/home_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 35rem;
+    width: 100%;
+    margin-bottom: 20px;
+    filter: blur(1px) brightness(75%);
+    display: grid;
+    justify-content: center;
+}
+
+.home-intro-content {
+    width: 100%;
+    height: 15rem;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    position: absolute;
+    top: 24%;
+
+}
+
+.home-intro-content h1 {
+    font-size: 3rem;
+    text-align: center;
+}
