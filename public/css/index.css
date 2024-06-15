@@ -47,13 +47,12 @@ body {
 .features-container {
     display: grid;
     grid-template-columns: auto;
-    border: 1px solid red;
-    grid-gap: 1rem;
+    /* border: 1px solid red; */
+    grid-gap: 2.5rem;
     font-family: 'Lato', sans-serif;
 }
 
 .features-container-even {
-    border: 1px solid green;
     display: grid;
     grid-template-columns: 50% 40%;
     grid-gap: 1rem;
@@ -61,7 +60,6 @@ body {
 }
 
 .features-container-odd {
-    border: 1px solid blue;
     display: grid;
     grid-template-columns: 40% 50%;
     grid-gap: 1rem;
@@ -70,10 +68,15 @@ body {
 
 .features-even-content {
     text-align: center;
-    padding: 30px;
+    padding: 30px 7rem;
+}
+
+.features-even-content h2 {
+    font-size: 2rem;
 }
 
 .features-even-img img {
+    max-width: 18rem;
     width: 18rem;
     height: 18rem;
     display: block;
