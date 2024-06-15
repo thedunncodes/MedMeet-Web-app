@@ -15,7 +15,7 @@ body {
     height: 35rem;
     width: 100%;
     margin-bottom: 20px;
-    filter: blur(1px) brightness(75%);
+    filter: blur(1px) brightness(70%);
     display: grid;
     justify-content: center;
 }
@@ -34,4 +34,12 @@ body {
 .home-intro-content h1 {
     font-size: 3rem;
     text-align: center;
+}
+
+.home-intro-content div.home-intro-subcontent {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
 }
