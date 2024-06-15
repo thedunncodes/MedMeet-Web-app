@@ -1,0 +1,49 @@
+footer {
+    margin-top: 2rem;
+    background-color: rgb(70, 200, 187);
+    box-sizing: border-box;
+    padding: 15px 10px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    display: grid;
+    grid-template-columns: 20% 65% 15%;
+    justify-content: space-between;
+}
+
+.footer-content1 {
+    display: grid;
+    align-content: center;
+}
+
+.footer-content2 {
+    display: grid;
+    align-content: center;
+}
+
+.footer-content2-wrapper {
+    width: 30%;
+    margin: auto;
+    height: 100%;
+    font-size: 1.1rem;
+}
+
+.footer-content2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-content3 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.footer-content3 a {
+    margin-left: 1rem;
+}
+
+.footer-content3 a svg {
+    color: white;
+    width: 2.1rem;
+    height: 2.1rem;
+}
