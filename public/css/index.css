@@ -82,3 +82,48 @@ body {
     display: block;
     margin: auto;
 }
+
+.cta-container {
+    height: 12rem;
+    box-shadow: 0 0 15px rgba(25, 85, 123, 0.171);
+    margin: 30px 57px 0 57px;
+    font-family: 'Lato', sans-serif;
+    padding: 12px 0;
+}
+
+.cta-container h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.cta-container-btn-wrapper {
+    width: fit-content;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 2rem;
+}
+
+.cta-container-btn-wrapper > a:first-child {
+    background-color: rgb(70, 200, 187);
+    color: white;
+}
+
+.cta-container-btn-wrapper > a:last-child {
+    box-shadow: 0 0 15px rgba(25, 85, 123, 0.171);
+    color: rgb(70, 200, 187);
+} 
+
+.cta-container-btn {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 25px;
+    color: #333;
+    font-size: 1.3rem;
+    border-radius: 35px;
+    transition: all 500ms ease;
+}
+
+a.cta-container-btn:hover {
+    box-shadow: 0 0 15px rgba(25, 85, 123, 0.171);
+}
